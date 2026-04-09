@@ -2,16 +2,19 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buscador de Filmes</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>Buscar Filmes</h1>
+    <h1>🎬 Buscador de <span>Filmes</span></h1>
 
-    <input type="text" id="input" placeholder="Digite o nome do filme">
-    <button onclick="buscarFilme()">Buscar</button>
+    <div class="barra-busca">
+      <input type="text" id="input" placeholder="Digite o nome do filme">
+      <button onclick="buscarFilme()">Buscar</button>
+    </div>
 
     <div id="resultado"></div>
   </div>
